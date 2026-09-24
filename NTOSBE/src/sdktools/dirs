@@ -1,0 +1,18 @@
+DIRS= mkmsg       \
+      nmake       \
+      build       \
+      debuggers   \
+      ztools      \
+      alias       \
+      pcopy       \
+      rcdll       \
+      rc          \
+      reloc       \
+      nosrvbld    \
+      mkpublic    \
+      mc          \
+      touch       \
+      m4          \
+      hsplit      \
+      hextract    \
+      wcshdr
