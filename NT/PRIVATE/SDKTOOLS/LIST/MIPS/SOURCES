@@ -1,3 +1,0 @@
-GPSIZE=32
-
-MIPS_SOURCES=newldis.c

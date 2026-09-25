@@ -1,1 +1,0 @@
-#define JNUPDATE 1

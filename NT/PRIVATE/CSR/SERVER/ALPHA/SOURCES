@@ -1,3 +1,0 @@
-ALPHA_LNKFLAGS=-stack:98304,8192
-
-ALPHA_SOURCES=alpha\evpair.s
