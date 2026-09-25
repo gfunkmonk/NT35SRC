@@ -318,7 +318,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: IWinTypes
- * at Sun Aug 14 13:21:34 1994
+ * at Fri Sep 25 10:19:52 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][unique][version][uuid] */ 
@@ -1132,7 +1132,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Sun Aug 14 13:21:37 1994
+ * at Fri Sep 25 10:19:53 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][local] */ 
@@ -1380,7 +1380,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][local] */ 
@@ -1416,7 +1416,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0000_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IUnknown
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1531,7 +1531,7 @@ void __RPC_STUB IUnknown_Release_Stub(
 
 /****************************************
  * Generated header for interface: IClassFactory
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1653,7 +1653,7 @@ void __RPC_STUB IClassFactory_LockServer_Stub(
 
 /****************************************
  * Generated header for interface: IMarshal
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -1909,7 +1909,7 @@ void __RPC_STUB IMarshal_DisconnectObject_Stub(
 
 /****************************************
  * Generated header for interface: IMalloc
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -2114,7 +2114,7 @@ void __RPC_STUB IMalloc_HeapMinimize_Stub(
 
 /****************************************
  * Generated header for interface: IStdMarshalInfo
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -2215,7 +2215,7 @@ void __RPC_STUB IStdMarshalInfo_GetClassForHandler_Stub(
 
 /****************************************
  * Generated header for interface: IExternalConnection
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][local][object] */ 
@@ -2349,7 +2349,7 @@ void __RPC_STUB IExternalConnection_ReleaseConnection_Stub(
 
 /****************************************
  * Generated header for interface: IWeakRef
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][local][object] */ 
@@ -2469,7 +2469,7 @@ void __RPC_STUB IWeakRef_ReleaseKeepAlive_Stub(
 
 /****************************************
  * Generated header for interface: IEnumUnknown
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2633,7 +2633,7 @@ void __RPC_STUB IEnumUnknown_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IBindCtx
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2951,7 +2951,7 @@ void __RPC_STUB IBindCtx_RevokeObjectParam_Stub(
 
 /****************************************
  * Generated header for interface: IParseDisplayName
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3055,7 +3055,7 @@ void __RPC_STUB IParseDisplayName_ParseDisplayName_Stub(
 
 /****************************************
  * Generated header for interface: IEnumMoniker
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3219,7 +3219,7 @@ void __RPC_STUB IEnumMoniker_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IRunnableObject
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -3402,7 +3402,7 @@ void __RPC_STUB IRunnableObject_SetContainedObject_Stub(
 
 /****************************************
  * Generated header for interface: IRunningObjectTable
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object] */ 
@@ -3647,7 +3647,7 @@ void __RPC_STUB IRunningObjectTable_EnumRunning_Stub(
 
 /****************************************
  * Generated header for interface: IPersist
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object] */ 
@@ -3742,7 +3742,7 @@ void __RPC_STUB IPersist_GetClassID_Stub(
 
 /****************************************
  * Generated header for interface: IPersistStream
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3911,7 +3911,7 @@ void __RPC_STUB IPersistStream_GetSizeMax_Stub(
 
 /****************************************
  * Generated header for interface: IMoniker
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -4443,7 +4443,7 @@ void __RPC_STUB IMoniker_IsSystemMoniker_Stub(
 
 /****************************************
  * Generated header for interface: IEnumString
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -4607,7 +4607,7 @@ void __RPC_STUB IEnumString_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IStream
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -5002,7 +5002,7 @@ void __RPC_STUB IStream_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IEnumSTATSTG
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -5166,7 +5166,7 @@ void __RPC_STUB IEnumSTATSTG_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IStorage
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -5675,7 +5675,7 @@ void __RPC_STUB IStorage_Stat_Stub(
 
 /****************************************
  * Generated header for interface: IPersistFile
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -5869,7 +5869,7 @@ void __RPC_STUB IPersistFile_GetCurFile_Stub(
 
 /****************************************
  * Generated header for interface: IPersistStorage
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -6079,7 +6079,7 @@ void __RPC_STUB IPersistStorage_HandsOffStorage_Stub(
 
 /****************************************
  * Generated header for interface: ILockBytes
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -6336,7 +6336,7 @@ void __RPC_STUB ILockBytes_Stat_Stub(
 
 /****************************************
  * Generated header for interface: IEnumFORMATETC
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -6530,7 +6530,7 @@ void __RPC_STUB IEnumFORMATETC_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IEnumSTATDATA
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -6718,7 +6718,7 @@ void __RPC_STUB IEnumSTATDATA_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IRootStorage
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -6813,7 +6813,7 @@ void __RPC_STUB IRootStorage_SwitchToFile_Stub(
 
 /****************************************
  * Generated header for interface: IAdviseSink
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -7059,7 +7059,7 @@ void __RPC_STUB IAdviseSink_RemoteOnClose_Stub(
 
 /****************************************
  * Generated header for interface: IAdviseSink2
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -7190,7 +7190,7 @@ void __RPC_STUB IAdviseSink2_RemoteOnLinkSrcChange_Stub(
 
 /****************************************
  * Generated header for interface: IDataObject
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -7495,7 +7495,7 @@ void __RPC_STUB IDataObject_EnumDAdvise_Stub(
 
 /****************************************
  * Generated header for interface: IDataAdviseHolder
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -7674,7 +7674,7 @@ void __RPC_STUB IDataAdviseHolder_SendOnDataChange_Stub(
 
 /****************************************
  * Generated header for interface: IMessageFilter
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -7878,7 +7878,7 @@ void __RPC_STUB IMessageFilter_MessagePending_Stub(
 
 /****************************************
  * Generated header for interface: IRpcChannelBuffer
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -8082,7 +8082,7 @@ void __RPC_STUB IRpcChannelBuffer_IsConnected_Stub(
 
 /****************************************
  * Generated header for interface: IRpcProxyBuffer
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -8193,7 +8193,7 @@ void __RPC_STUB IRpcProxyBuffer_Disconnect_Stub(
 
 /****************************************
  * Generated header for interface: IRpcStubBuffer
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -8414,7 +8414,7 @@ void __RPC_STUB IRpcStubBuffer_DebugServerRelease_Stub(
 
 /****************************************
  * Generated header for interface: IPSFactoryBuffer
- * at Sun Aug 14 13:21:32 1994
+ * at Fri Sep 25 10:19:49 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 

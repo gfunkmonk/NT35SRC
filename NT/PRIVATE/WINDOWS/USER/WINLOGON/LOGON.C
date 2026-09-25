@@ -426,7 +426,7 @@ LogonDlgProc(
         if (GetProfileString(TEXT("Winlogon"), TEXT("DefaultPassword"), TEXT(""), PasswordBuffer, sizeof( PasswordBuffer )) != 0)
             SetDlgItemText(hDlg, IDD_PASSWORD, PasswordBuffer);
         else
-            WriteProfileString( TEXT("Winlogon"), TEXT("AutoAdminLogon"), TEXT("0") );
+        //    WriteProfileString( TEXT("Winlogon"), TEXT("AutoAdminLogon"), TEXT("0") );
 
         // Make sure domain list is valid before auto-logging in.
         if (!pGlobals->DomainListComplete) {

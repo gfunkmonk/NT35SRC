@@ -16,7 +16,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Sun Aug 14 13:21:37 1994
+ * at Fri Sep 25 10:19:53 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][local] */ 

@@ -98,14 +98,14 @@ vfl_y equ 08H
 ; Font structures
 
 prfnt equ 00H
-wcgp equ 01E8H
+wcgp equ 01E6H
 ulContent equ 038H
 FO_HGLYPHS equ 00H
 agprun equ 08H
 pgdDefault equ 04H
 wcLow equ 00H
-cGlyphs equ 04H
-apgd equ 08H
+cGlyphs equ 02H
+apgd equ 06H
 gd_hg equ 04H
 gd_gdf equ 00H
 gp_hg equ 00H

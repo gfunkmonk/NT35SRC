@@ -76,7 +76,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][local] */ 
@@ -102,7 +102,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0000_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: RemVariant
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][local][unique][version] */ 
@@ -874,7 +874,7 @@ extern RPC_IF_HANDLE RemVariant_v0_1_s_ifspec;
 
 /****************************************
  * Generated header for interface: ICreateTypeInfo
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -1498,7 +1498,7 @@ void __RPC_STUB ICreateTypeInfo_LayOut_Stub(
 
 /****************************************
  * Generated header for interface: ICreateTypeLib
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -1797,7 +1797,7 @@ void __RPC_STUB ICreateTypeLib_SaveAllChanges_Stub(
 
 /****************************************
  * Generated header for interface: IDispatch
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -2026,7 +2026,7 @@ void __RPC_STUB IDispatch_Invoke_Stub(
 
 /****************************************
  * Generated header for interface: IEnumVARIANT
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][local][object] */ 
@@ -2190,7 +2190,7 @@ void __RPC_STUB IEnumVARIANT_Clone_Stub(
 
 /****************************************
  * Generated header for interface: ITypeComp
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -2360,7 +2360,7 @@ void __RPC_STUB ITypeComp_BindType_Stub(
 
 /****************************************
  * Generated header for interface: ITypeInfo
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -2938,7 +2938,7 @@ void __RPC_STUB ITypeInfo_ReleaseVarDesc_Stub(
 
 /****************************************
  * Generated header for interface: ITypeLib
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -3301,7 +3301,7 @@ void __RPC_STUB ITypeLib_ReleaseTLibAttr_Stub(
 
 /****************************************
  * Generated header for interface: IErrorInfo
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -3484,7 +3484,7 @@ void __RPC_STUB IErrorInfo_GetHelpContext_Stub(
 
 /****************************************
  * Generated header for interface: ICreateErrorInfo
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 
@@ -3667,7 +3667,7 @@ void __RPC_STUB ICreateErrorInfo_SetHelpContext_Stub(
 
 /****************************************
  * Generated header for interface: ISupportErrorInfo
- * at Wed Aug 10 21:26:55 1994
+ * at Fri Sep 25 10:20:07 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [local][unique][uuid][object] */ 

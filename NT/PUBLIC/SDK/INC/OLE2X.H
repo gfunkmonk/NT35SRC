@@ -136,7 +136,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][local] */ 
@@ -156,7 +156,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0000_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IOleAdviseHolder
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -358,7 +358,7 @@ void __RPC_STUB IOleAdviseHolder_SendOnClose_Stub(
 
 /****************************************
  * Generated header for interface: IOleCache
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -553,7 +553,7 @@ void __RPC_STUB IOleCache_SetData_Stub(
 
 /****************************************
  * Generated header for interface: IOleCache2
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][local][object] */ 
@@ -754,7 +754,7 @@ void __RPC_STUB IOleCache2_DiscardCache_Stub(
 
 /****************************************
  * Generated header for interface: IOleCacheControl
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][local][object] */ 
@@ -868,7 +868,7 @@ void __RPC_STUB IOleCacheControl_OnStop_Stub(
 
 /****************************************
  * Generated header for interface: IOleContainer
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -999,7 +999,7 @@ void __RPC_STUB IOleContainer_LockContainer_Stub(
 
 /****************************************
  * Generated header for interface: IOleClientSite
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1201,7 +1201,7 @@ void __RPC_STUB IOleClientSite_RequestNewObjectLayout_Stub(
 
 /****************************************
  * Generated header for interface: IOleObject
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1829,7 +1829,7 @@ void __RPC_STUB IOleObject_SetColorScheme_Stub(
 
 /****************************************
  * Generated header for interface: IOLETypes
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [auto_handle][uuid] */ 
@@ -1886,7 +1886,7 @@ extern RPC_IF_HANDLE IOLETypes_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IOleWindow
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2003,7 +2003,7 @@ void __RPC_STUB IOleWindow_ContextSensitiveHelp_Stub(
 
 /****************************************
  * Generated header for interface: IOleLink
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -2337,7 +2337,7 @@ void __RPC_STUB IOleLink_Update_Stub(
 
 /****************************************
  * Generated header for interface: IOleItemContainer
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2542,7 +2542,7 @@ void __RPC_STUB IOleItemContainer_IsRunning_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceUIWindow
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2730,7 +2730,7 @@ void __RPC_STUB IOleInPlaceUIWindow_SetActiveObject_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceActiveObject
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object] */ 
@@ -2934,7 +2934,7 @@ void __RPC_STUB IOleInPlaceActiveObject_EnableModeless_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceFrame
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3221,7 +3221,7 @@ void __RPC_STUB IOleInPlaceFrame_TranslateAccelerator_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceObject
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3391,7 +3391,7 @@ void __RPC_STUB IOleInPlaceObject_ReactivateAndUndo_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceSite
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3693,7 +3693,7 @@ void __RPC_STUB IOleInPlaceSite_OnPosRectChange_Stub(
 
 /****************************************
  * Generated header for interface: IViewObject
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -3964,7 +3964,7 @@ void __RPC_STUB IViewObject_GetAdvise_Stub(
 
 /****************************************
  * Generated header for interface: IViewObject2
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -4133,7 +4133,7 @@ void __RPC_STUB IViewObject2_GetExtent_Stub(
 
 /****************************************
  * Generated header for interface: IDropSource
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [uuid][object][local] */ 
@@ -4253,7 +4253,7 @@ void __RPC_STUB IDropSource_GiveFeedback_Stub(
 
 /****************************************
  * Generated header for interface: IDropTarget
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -4478,7 +4478,7 @@ void __RPC_STUB IDropTarget_Drop_Stub(
 
 /****************************************
  * Generated header for interface: IEnumOLEVERB
- * at Mon Aug 15 13:54:36 1994
+ * at Fri Sep 25 10:20:01 2026
  * using MIDL 2.00.71
  ****************************************/
 /* [unique][uuid][object] */ 
