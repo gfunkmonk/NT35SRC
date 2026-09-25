@@ -43,6 +43,8 @@
 
 #define STACKDEPTH 10
 
+extern void error(char *, ...);
+
 typedef struct {
     GLdouble	mat[4][4];
     GLdouble	norm[3][3];

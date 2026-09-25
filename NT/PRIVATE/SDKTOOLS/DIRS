@@ -1,4 +1,4 @@
-!IF 0
+!IF 0 
 
 Copyright (c) 1989-91  Microsoft Corporation
 
@@ -56,7 +56,7 @@ DIRS= ztools        \
       strings       \
       suck          \
       sync          \
-      tail	    \
+      tail	        \
       tc            \
       timer         \
       touch         \
@@ -174,5 +174,5 @@ OPTIONAL_DIRS=vctools   \
               clearmem  \
               editreg   \
               xerox     \
-	      wap	\
-	      tile
+    	      wap	    \
+	          tile

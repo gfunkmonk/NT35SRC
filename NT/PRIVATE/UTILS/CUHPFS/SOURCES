@@ -28,10 +28,10 @@ MINORCOMP=cuhpfs
 TARGETNAME=cuhpfs
 TARGETPATH=obj
 TARGETTYPE=DYNLINK
-TARGETLIBS=\nt\public\sdk\lib\*\kernel32.lib	\
-           ..\ulib\src\obj\*\ulib.lib       \
-           ..\uhpfs\src\obj\*\uhpfs.lib     \
-           ..\untfs\src\obj\*\untfs.lib     \
+TARGETLIBS=\nt\public\sdk\lib\*\kernel32.lib \
+           ..\ulib\src\obj\*\ulib.lib        \
+           ..\uhpfs\src\obj\*\uhpfs.lib      \
+           ..\untfs\src\obj\*\untfs.lib      \
            ..\ifsutil\src\obj\*\ifsutil.lib
 
 USE_CRTDLL=1
