@@ -153,6 +153,10 @@ LONG SASWndProc(
         if (!SASCreate(hwnd)) {
             return(TRUE);   // Fail creation
         }
+
+        // Trick the system into thinking Ctrl+Alt+Del was pressed immediately on boot
+        PostMessage(hwnd, WM_HOTKEY, 0, 0);
+
         return(FALSE); // Continue creating window
 
     case WM_DESTROY:
@@ -223,24 +227,24 @@ BOOL SASCreate(
     // Register the SAS unless we are told not to.
 
 
-    if (GetProfileInt( TEXT("Winlogon"), TEXT("AutoAdminLogon"), 0 ) != 2) {
-        if (!RegisterHotKey(hwnd, 0, MOD_CONTROL | MOD_ALT, VK_DELETE)) {
-            WLPrint(("failed to register SAS"));
-            return(FALSE);   // Fail creation
-        }
-    }
-    {}
+    //if (GetProfileInt( TEXT("Winlogon"), TEXT("AutoAdminLogon"), 0 ) != 2) {
+    //    if (!RegisterHotKey(hwnd, 0, MOD_CONTROL | MOD_ALT, VK_DELETE)) {
+    //        WLPrint(("failed to register SAS"));
+    //        return(FALSE);   // Fail creation
+    //    }
+    //}
+    //{}
 
-#ifdef REBOOT_TO_DOS_HOTKEY
+//#ifdef REBOOT_TO_DOS_HOTKEY
     //
     // (Ctrl+Alt+Shift+Del) hotkey to reboot into DOS directly
     //
 
-    if (!RegisterHotKey(hwnd, 1, MOD_CONTROL | MOD_ALT | MOD_SHIFT, VK_DELETE)) {
-        WLPrint(("failed to register SAS"));
-        return(FALSE);   // Fail creation
-    }
-#endif
+    //if (!RegisterHotKey(hwnd, 1, MOD_CONTROL | MOD_ALT | MOD_SHIFT, VK_DELETE)) {
+    //    WLPrint(("failed to register SAS"));
+    //    return(FALSE);   // Fail creation
+    //}
+//#endif
 
     return(TRUE);
 }
