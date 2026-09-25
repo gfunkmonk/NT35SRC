@@ -1,0 +1,41 @@
+# Build Directories & Tooling Outputs
+# ==========================================
+[Oo]bj/
+[Bb]in/
+**/obj/
+**/bin/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# Core Razzle Build Engine Databases
+# ==========================================
+build.dat
+build.log
+build.wrn
+build.err
+build.bak
+*.log
+
+# Missing Toolchain Extensions & Precompiled Headers
+# ==========================================
+*.pch
+*.obj
+*.sym
+*.lib
+*.res
+
+# Profiling & Linker Scraps
+# ==========================================
+*.exp
+*.pbi
+*.pbo
+*.pbt
+*.ilk
+*.map
+
+# ==========================================
+*~
+*.bak
+*.tmp
+
