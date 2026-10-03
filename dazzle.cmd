@@ -71,8 +71,9 @@ color 07
 TITLE C:\WINNT\System32\cmd.exe
 prompt $p$g
 
-:END
+goto :EOF
 
+:END
 echo You must provide the drive letter.
 echo Example: DAZZLE.CMD G:
 exit /b
