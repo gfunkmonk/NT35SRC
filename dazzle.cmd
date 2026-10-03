@@ -1,6 +1,12 @@
 mode con: cols=120 lines=5000
 
-set _NTDRIVE=D:
+IF "%~1"=="" GOTO END
+
+:: Validate that %1 is exactly one letter (a-z, A-Z) followed by a colon
+echo %~1| findstr /r /i "^[a-z]:$" >nul
+if errorlevel 1 GOTO END
+
+set _NTDRIVE=%1
 set _NTROOT=\nt
 set BASEDIR=%_NTDRIVE%%_NTROOT%
 set CPUTYPE=I386
@@ -65,4 +71,9 @@ color 07
 TITLE C:\WINNT\System32\cmd.exe
 prompt $p$g
 
+:END
+
+echo You must provide the drive letter.
+echo Example: DAZZLE.CMD G:
+exit /b
 
