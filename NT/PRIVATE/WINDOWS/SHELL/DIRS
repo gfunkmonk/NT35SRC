@@ -13,21 +13,21 @@ Abstract:
 
 !ENDIF
 
-DIRS=   userpri \
-        library \
-        comdlg  \
-        control \
-        lz      \
-        progman \
-        taskman \
-        version \
-        winfile \
-        winver  \
+DIRS=   userpri  \
+        library  \
+        comdlg   \
+        control  \
+        lz       \
+        progman  \
+        taskman  \
+        version  \
+        winfile  \
+        winver   \
         grptoreg \
-        convgrp \
-        upedit \
-        msctls \
-        pid     \
+        convgrp  \
+        upedit   \
+        msctls   \
+        pid      \
         o2base
 
 OPTIONAL_DIRS=  accesory  \

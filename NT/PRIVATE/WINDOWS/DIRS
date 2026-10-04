@@ -34,7 +34,7 @@ DIRS=wincon     \
      user       \
      prsinf     \
      media      \
-     winsrv \
+     winsrv     \
      netdde
 
 OPTIONAL_DIRS=winhelp \

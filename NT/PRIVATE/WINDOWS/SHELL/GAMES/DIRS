@@ -13,7 +13,7 @@ Abstract:
 
 !ENDIF
 
-DIRS=	reversi
+DIRS=	reversi \
+        sol
 
-
-OPTIONAL_DIRS= sol
+OPTIONAL_DIRS= 

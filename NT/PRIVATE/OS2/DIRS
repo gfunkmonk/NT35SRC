@@ -24,7 +24,7 @@ DIRS=ssrtl  \
      client \
      server \
      ldr    \
-     loader    \
+     loader \
      os2ss	\
      os2ses
 

@@ -38,21 +38,20 @@ DIRS=\
      lsapi      \
      api
 
-OPTIONAL_DIRS=\
-          Examples  \
-          netcmd    \
-          os2test   \
-          pipetest  \
-          srvtest   \
-          trdr      \
-          trdrpipe  \
-          ui        \
-          jet       \
-          sockets   \
-          smbtrace  \
-          snmp      \
-	  dlc	    \
-          ras       \
-	  sfm	    \
-          otnboot   \
-	  bh
+OPTIONAL_DIRS= Examples  \
+               netcmd    \
+               os2test   \
+               pipetest  \
+               srvtest   \
+               trdr      \
+               trdrpipe  \
+               ui        \
+               jet       \
+               sockets   \
+               smbtrace  \
+               snmp      \
+	           dlc	     \
+               ras       \
+	           sfm	     \
+               otnboot   \
+	           bh

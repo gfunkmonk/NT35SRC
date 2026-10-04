@@ -13,4 +13,7 @@ Abstract:
 
 !ENDIF
 
-DIRS=	layers2    bullet2    bandit2    spell
+DIRS=	layers2 \
+        bullet2 \
+        bandit2 \
+        spell

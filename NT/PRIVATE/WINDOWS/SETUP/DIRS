@@ -18,5 +18,5 @@ DIRS=bom      \
      patchdll \
      stripinf \
      localinf \
-     oeminf \
+     oeminf   \
      inf
