@@ -49,7 +49,7 @@ TARGETLIBS=\nt\public\sdk\lib\*\kernel32.lib \
        \nt\public\sdk\lib\*\ntvdm.lib \
        \nt\public\sdk\lib\*\oemuni.lib \
        \nt\public\sdk\lib\*\comdlg32.lib
-
+       
 DLLENTRY=W32DllInitialize
 DLLBASE=0x2000000
 DLLDEF=obj\*\wow32.def

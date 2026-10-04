@@ -98,7 +98,6 @@ LONG VFWAPI TermVFW(void);
     #define mmioFOURCC MKFOURCC
 #endif
 
-#endif
 /****************************************************************************
  *
  *  COMPMAN - Installable Compression Manager.
@@ -3531,4 +3530,4 @@ BOOL VFWAPI capGetDriverDescriptionW (UINT wDriverIndex,
 }                       /* End of extern "C" { */
 #endif  /* __cplusplus */
 
-//#endif  /* _INC_VFW */
+#endif  /* _INC_VFW */
