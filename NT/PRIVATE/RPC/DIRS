@@ -22,10 +22,10 @@ NOTE:   Commented description of this file is in \nt\bak\bin\dirs.tpl
 
 DIRS=ndrlib  \
      ndrmem  \
-     ndr20 \
+     ndr20   \
      runtime \
      midlnew \
-     midl20 \
+     midl20  \
      uuidgen
 
 OPTIONAL_DIRS=blt \

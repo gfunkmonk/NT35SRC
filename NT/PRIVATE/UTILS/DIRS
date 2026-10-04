@@ -58,7 +58,5 @@ DIRS= ntlib             \
 
 OPTIONAL_DIRS=fdisk     \
               ntbackup  \
-                  \
               qcdbg     \
-             	\
               
