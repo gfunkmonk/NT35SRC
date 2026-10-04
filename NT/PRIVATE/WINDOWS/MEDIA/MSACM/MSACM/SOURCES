@@ -73,5 +73,4 @@ DLLENTRY=DllEntryPoint
 
 DLLBASE=0x66600000
 
-MISCFILES=msacm.dll       \
-          msacm.sym
+MISCFILES=msacm.dll
