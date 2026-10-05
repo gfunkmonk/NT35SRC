@@ -1,17 +1,24 @@
 mode con: cols=120 lines=5000
 
-set _NTDRIVE=D:
+IF "%~1"=="" GOTO END
+
+:: Validate that %1 is exactly one letter (a-z, A-Z) followed by a colon
+echo %~1| findstr /r /i "^[a-z]:$" >nul
+if errorlevel 1 GOTO END
+
+set _NTDRIVE=%1
 set _NTROOT=\nt
 set BASEDIR=%_NTDRIVE%%_NTROOT%
 set CPUTYPE=I386
 set PLATFORM=i386
-REM set NTDEBUG=
+set NTDEBUG=
 set NTDEBUG=retail
 set RETAIL=TRUE
 set NODEBUG=1
 set NTDBGFILES=0
 set NTCD=1
 set 386=1
+set BUILD_BOOTCODE=1
 
 REM Just want I386, dude
 set PPC=0
@@ -33,12 +40,13 @@ set NUMBER_OF_PROCESSORS=1
 :: set _NTBINDIR=%_NTDRIVE%%_NTROOT%
 
 :: GEMINI INSISTED ON THIS, HOWEVER, DOESN'T EXIST ANYWHERE
-:: set NT_ARCH=x86
+set NT_ARCH=x86
+set _NTBLD=fre
 
 :: Add MSTOOLS, IDW and PUBLIC\TOOLS to the path if not in system directory. 
 @REM if exist %_NTDrive%%_NTRoot%\public\mstools (
 @REM    set MSTOOLS_DIR=%_NTDrive%%_NTRoot%\public\mstools
-@REM    set REM PATH=%PATH%;%_NTDrive%%_NTRoot%\public\mstools;%_NTDrive%%_NTRoot%\public\mstools\%CPUTYPE%
+@REM    set PATH=%PATH%;%_NTDrive%%_NTRoot%\public\mstools;%_NTDrive%%_NTRoot%\public\mstools\%CPUTYPE%
 @REM )
 @REM if exist %_NTDrive%%_NTRoot%\public\idw (
 @REM     set IDW_DIR=%_NTDrive%%_NTRoot%\public\idw
@@ -58,11 +66,15 @@ color 0E
 TITLE        [ Ready ]   R a Z Z l E  --- WinBuildEnv
 prompt [RAZZLE] $p$g
 
-call %BASEDIR%\PUBLIC\TOOLS\razzle.cmd
+set NTDEBUG=retail & set NT_UP=1 & call %BASEDIR%\PUBLIC\TOOLS\razzle.cmd
 
 cd /d %CURDIR%
 color 07
 TITLE C:\WINNT\System32\cmd.exe
 prompt $p$g
 
+:END
 
+echo You must provide the drive letter.
+echo Example: DAZZLE.CMD G:
+exit /b

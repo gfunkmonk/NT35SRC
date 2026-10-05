@@ -37,6 +37,7 @@ set INCLUDE=
 set BUILD_DEFAULT=ntoskrnl ntkrnlmp daytona -e -i -nmake -i
 set BUILD_DEFAULT_TARGETS=-386
 set BUILD_MAKE_PROGRAM=nmake.exe
+set ASM_COMPILER=ml.exe
 @rem
 @rem Setup default nmake parameters.
 @rem
