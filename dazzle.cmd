@@ -31,14 +31,14 @@ for %%I in (.) do set CURDIR=%%~fI
 
 cd /d %BASEDIR%\PRIVATE\
 
-color 0E
+color 8B
 TITLE        [ Ready ]   R a Z z L e  --- WinBuildEnv
 prompt [RAZZLE] $p$g
 
 call %BASEDIR%\PUBLIC\TOOLS\razzle.cmd
 
 cd /d %CURDIR%
-color 8b
+color 07
 TITLE C:\WINNT\System32\cmd.exe
 prompt $p$g
 
